@@ -2,10 +2,12 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>row_crop_follow</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>Navigation algorithm to maintain a central path inside the inter-row</description>
-  <maintainer email="simone.cerrato@polito.it">root</maintainer>
-  <license>TODO: License declaration</license>
+  <maintainer email="marco.ambrosio@polito.it">Marco Ambrosio</maintainer>
+  <maintainer email="alessandro.navone@polito.it">Alessandro Navone</maintainer>
+  <maintainer email="mauro.martini@polito.it">Mauro Martini</maintainer>
+  <license>GNU GPLv3</license>
   
   <exec_depend>rclpy</exec_depend>
   <exec_depend>sensor_msgs</exec_depend>
