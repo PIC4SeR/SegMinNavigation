@@ -1,0 +1,23 @@
+seg_controller:
+  ros__parameters:
+    controller_type: SegMin # SegZeros, SegMin or SegMinD
+    
+    cmd_vel_topic: /cmd_vel_new
+    rgb_topic: /camera_front/realsense2_camera_node/color/image_raw/compressed
+    depth_topic: /camera_front/realsense2_camera_node/aligned_depth_to_color/image_raw
+
+    model_file: /workspaces/ros_humble_devcontainer/src/SegMinNavigation/row_crop_follow/models/lr_aspp/vineyard_tot_pergolato/vineyards_segmentation_binary.tflite
+    inference_device: cpu # cpu or gpu
+    input_width_network: 224
+    input_height_network: 224
+    normalization: imagenet
+
+    lin_vel_gain: 1.0
+    ang_vel_gain: 3.0
+    max_lin_vel: 0.5
+    max_ang_vel: 1.0
+    ema_filter_alpha: 0.5
+    depth_threshold: 5.0
+    confidence_threshold: 0.7
+    
+    show_result: False

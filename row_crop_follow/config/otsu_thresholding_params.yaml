@@ -1,0 +1,13 @@
+otsu_controller:
+  ros__parameters:
+    grayscale_method: cv2 # other options: 2gbr, gb
+
+    cmd_vel_topic: /cmd_vel
+    rgb_topic: /camera/color/image_raw
+
+    proportional_criterion: 1.5
+    deviation_control_gain: 0.01
+    correction_control_gain: -0.05
+    linear_velocity: 0.5
+    
+    show_result: False
