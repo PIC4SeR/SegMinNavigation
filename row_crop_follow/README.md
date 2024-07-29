@@ -53,7 +53,7 @@ Set topic names through their parameter
 
 ### otsu_thresholding_node
 
-This is an implementation of the work "Autonomous Navigation and Crop Row Detection in Vineyards Using Machine Vision with 2D Camera"[^1] used for comparison.
+This is an implementation of the work "**Autonomous Navigation and Crop Row Detection in Vineyards Using Machine Vision with 2D Camera**"[^1] used for comparison.
 
 > [^1]: Mendez, E.; Piña Camacho, J.; Escobedo Cabello, J.A.; Gómez-Espinosa, A. Autonomous Navigation and Crop Row Detection in Vineyards Using Machine Vision with 2D Camera. Automation 2023, 4, 309-326. [https://doi.org/10.3390/automation4040018](https://doi.org/10.3390/automation4040018)
 
