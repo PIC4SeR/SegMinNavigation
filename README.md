@@ -1,4 +1,4 @@
-> **For detailed usage instructions refer to README of row_crop_follow package**
+> **For detailed usage instructions refer to [README of row_crop_follow package](./row_crop_follow/README.md)**
 
 
 # GPS-free Autonomous Navigation in Cluttered Tree Rows with Deep Semantic Segmentation
